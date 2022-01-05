@@ -6,7 +6,7 @@ sudo apt-get install git
 ```
 ### Installing Jackal Simulation
 ```
-sudo apt-get install ros-kinetic-jackal-simulator ros-kinetic-jackal-desktop
+sudo apt-get install ros-melodic-jackal-simulator ros-melodic-jackal-desktop
 ```
 ### Creating a catkin workspace
 ```
@@ -28,9 +28,10 @@ git clone https://github.com/clearpathrobotics/LMS1xx.git
 git clone https://github.com/ros-drivers/pointgrey_camera_driver.git
 cd ..
 ```
-### Building again 
+### Building  and sourcing again 
 ```
 catkin build
+source devel/setup.bash
 ```
 
 
