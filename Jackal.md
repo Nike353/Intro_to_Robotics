@@ -1,10 +1,10 @@
 # Intro to Jackal-Robot and controlling the robot using ROS and Rviz
 ## Installation
-#### Installing git 
+### Installing git 
 ```
 sudo apt-get install git
 ```
-#### Installing Jackal Simulation
+### Installing Jackal Simulation
 ```
 sudo apt-get install ros-kinetic-jackal-simulator ros-kinetic-jackal-desktop
 ```
