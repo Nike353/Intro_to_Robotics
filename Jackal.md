@@ -34,7 +34,7 @@ catkin build
 source devel/setup.bash
 ```
 ### Launching jackal in gazebo
-##### To launch simulated Jackal in a simple example world, run the following command:
+#### To launch simulated Jackal in a simple example world, run the following command:
 ```
 roslaunch jackal_gazebo jackal_world.launch
 ```
