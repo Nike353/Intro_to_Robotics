@@ -51,6 +51,14 @@ roslaunch jackal_gazebo jackal_world.launch config:=front_flea3
 roslaunch jackal_viz view_robot.launch
 ```
 
+## Creating a custom package to control the jackal robot
+```
+cd ~/jackal_robot/src
+catkin_create_pkg tele_op std_msgs rospy roscpp
+cd ..
+catkin build
+```
+
 
 
 
