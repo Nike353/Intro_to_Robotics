@@ -33,14 +33,22 @@ cd ..
 catkin build
 source devel/setup.bash
 ```
+
 ### Launching jackal in gazebo
 #### To launch simulated Jackal in a simple example world, run the following command:
 ```
 roslaunch jackal_gazebo jackal_world.launch
 ```
-#### To launch the Jackal along configured laser
+#### To launch the Jackal along configured laser or camera
 ```
 roslaunch jackal_gazebo jackal_world.launch config:=front_laser
+roslaunch jackal_gazebo jackal_world.launch config:=front_bumblebee2
+roslaunch jackal_gazebo jackal_world.launch config:=front_flea3
+```
+
+### Launching Jackal in Rviz 
+```
+roslaunch jackal_viz view_robot.launch
 ```
 
 
